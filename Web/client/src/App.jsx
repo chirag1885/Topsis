@@ -5,7 +5,7 @@ export default function App() {
     <>
       <div className="main-content">
         <div className="container mt-5">
-          <h2 className="text-center mb-4">TOPSIS Web Service</h2>
+          <h2 className="text-center mb-7">TOPSIS Web Service</h2>
           <TopsisForm />
         </div>
       </div>
