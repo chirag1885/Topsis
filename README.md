@@ -16,6 +16,15 @@ TOPSIS is a multi-criteria decision-making (MCDM) technique used to rank alterna
 
 ---
 
+## Project Website
+
+The TOPSIS project is also deployed as a web application, allowing users to run the TOPSIS method directly through a browser interface.
+
+🔗 Live Website:
+https://topsis-ashy.vercel.app/
+
+---
+
 ##  Installation (User Manual)
 
 This package requires **Python 3.7 or higher**.
