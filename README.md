@@ -25,8 +25,8 @@ This package requires **Python 3.7 or higher**.
 - numpy  
 
 Package listed on PyPI:- https://pypi.org/project/Topsis-chirag-102303483/
-Install the package using pip:
 
+Install the package using pip:
 
 ```bash
 pip install Topsis-chirag-102303483
