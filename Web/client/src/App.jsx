@@ -1,4 +1,5 @@
 import TopsisForm from "./components/TopsisForm";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -9,6 +10,9 @@ export default function App() {
           <TopsisForm />
         </div>
       </div>
+
+      {/* Footer at bottom */}
+      <Footer />
     </>
   );
 }
