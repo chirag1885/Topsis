@@ -212,7 +212,7 @@ export default function TopsisForm() {
             <ResultTable data={result} />
             <div className="text-center mt-4">
               <a
-                href={`https://topsis-ashy.vercel.app/${downloadUrl}`}
+                href={`https://topsis-ashy.vercel.app${downloadUrl}`}
                 className="btn btn-success"
               >
                 Download Output CSV
