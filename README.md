@@ -24,6 +24,7 @@ This package requires **Python 3.7 or higher**.
 - pandas  
 - numpy  
 
+Package listed on PyPI:- https://pypi.org/project/Topsis-chirag-102303483/
 Install the package using pip:
 
 
