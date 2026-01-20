@@ -8,6 +8,7 @@ export default function TopsisForm() {
   const [weightsValue, setWeightsValue] = useState("");
   const [impactsValue, setImpactsValue] = useState("");
   const [expectedCount, setExpectedCount] = useState(null);
+  const [downloadUrl, setdownloadUrl] = useState("")
 
   const [sendMail, setSendMail] = useState(false);
   const [result, setResult] = useState([]);
@@ -55,6 +56,7 @@ export default function TopsisForm() {
     try {
       const res = await api.post("/topsis", formData);
       setResult(res.data.table);
+      setdownloadUrl(res.data.download_url);
     } catch (err) {
       setError(err.response?.data?.error || "Server error");
     } finally {
@@ -210,7 +212,7 @@ export default function TopsisForm() {
             <ResultTable data={result} />
             <div className="text-center mt-4">
               <a
-                href="http://localhost:5000/api/download"
+                href={`https://topsis-ashy.vercel.app/${downloadUrl}`}
                 className="btn btn-success"
               >
                 Download Output CSV
